@@ -1,27 +1,11 @@
 import React from 'react'
 import { inject, observer } from 'mobx-react'
+import Slider from './Slider'
 
-const Slider = (props) => {
-    return (
-        <div>
-            <label htmlFor={props.name}>
-                {props.name}
-            </label>
-            <input
-                name={props.name}
-                type="range"
-                min={props.min}
-                max={props.max}
-                step={props.step}
-                defaultValue={props.param[props.name]}
-                onChange={event => {props.param.update(props.name, parseFloat(event.target.value))}}
-            />
-        </div>    
-    )
-}
 const EnvelopeADSR = ({ store }) => {
     return (
         <div>
+            <h1>Envelope</h1>
             <Slider
                 name="attack"
                 step={0.001}
