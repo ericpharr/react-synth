@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can create a RootStore 1`] = `
+Object {
+  "monosynth": Object {
+    "detune": 0,
+    "envelope": Object {
+      "attack": 0.005,
+      "decay": 0.1,
+      "release": 1,
+      "sustain": 0.5,
+    },
+    "filter": Object {
+      "Q": 6,
+      "rolloff": -12,
+      "type": "lowpass",
+    },
+    "filterEnvelope": Object {
+      "attack": 0.06,
+      "baseFrequency": 200,
+      "decay": 0.2,
+      "exponent": 2,
+      "octaves": 7,
+      "release": 2,
+      "sustain": 0.5,
+    },
+    "oscillator": Object {
+      "type": "square",
+    },
+  },
+}
+`;
