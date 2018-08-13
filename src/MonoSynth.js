@@ -3,6 +3,7 @@ import { observer, inject } from 'mobx-react'
 import Tone from 'tone'
 import OscillatorSelect from './OscillatorSelect'
 import EnvelopeADSR from './EnvelopeADSR'
+import FilterEnvelopeADSR from './FilterEnvelopeADSR'
 
 const synth = new Tone.MonoSynth().toMaster()
 
@@ -57,6 +58,7 @@ const MonoSynth = ({store}) => {
             >Play</button>
             <OscillatorSelect/>
             <EnvelopeADSR/>
+            <FilterEnvelopeADSR/>
         </div>
     )
 }

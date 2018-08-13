@@ -39,27 +39,9 @@ const FilterEnvelope = types
         exponent: types.optional(types.number, 2)
     })
     .actions(self => ({
-        setAttack(attack){
-            self.attack = attack
+        update(field, value){
+            self[field] = value
         },
-        setDecay(decay){
-            self.decay = decay
-        },
-        setSustain(sustain){
-            self.sustain = sustain
-        },
-        setRelease(release){
-            self.release = release
-        },
-        setBaseFrequency(freq){
-            self.baseFrequency = freq
-        },
-        setOctaves(octaves){
-            self.octaves = octaves
-        },
-        setExponent(exponent){
-            self.exponent = exponent
-        }
     }))
 
 const Envelope = types
@@ -73,18 +55,6 @@ const Envelope = types
         update(field, value){
             self[field] = value
         },
-        setAttack(attack){
-            self.attack = attack
-        },
-        setDecay(decay){
-            self.decay = decay
-        },
-        setSustain(sustain){
-            self.sustain = sustain
-        },
-        setRelease(release){
-            self.release = release
-        }
     }))
 
 const MonoSynth = types
