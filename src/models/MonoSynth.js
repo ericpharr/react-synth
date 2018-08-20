@@ -68,7 +68,7 @@ const MonoSynth = types
     .actions(self => ({
         setDetune(detune){
             self.detune = detune
-        }
+        },
     }))
 
 export default MonoSynth

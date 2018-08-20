@@ -2,6 +2,100 @@
 
 exports[`can create a RootStore 1`] = `
 Object {
+  "keyboard": Object {
+    "notes": Object {
+      "'": Object {
+        "key": "'",
+        "note": 53,
+        "on": false,
+      },
+      ";": Object {
+        "key": ";",
+        "note": 52,
+        "on": false,
+      },
+      "a": Object {
+        "key": "a",
+        "note": 36,
+        "on": false,
+      },
+      "d": Object {
+        "key": "d",
+        "note": 40,
+        "on": false,
+      },
+      "e": Object {
+        "key": "e",
+        "note": 39,
+        "on": false,
+      },
+      "f": Object {
+        "key": "f",
+        "note": 41,
+        "on": false,
+      },
+      "g": Object {
+        "key": "g",
+        "note": 43,
+        "on": false,
+      },
+      "h": Object {
+        "key": "h",
+        "note": 45,
+        "on": false,
+      },
+      "j": Object {
+        "key": "j",
+        "note": 47,
+        "on": false,
+      },
+      "k": Object {
+        "key": "k",
+        "note": 48,
+        "on": false,
+      },
+      "l": Object {
+        "key": "l",
+        "note": 50,
+        "on": false,
+      },
+      "o": Object {
+        "key": "o",
+        "note": 49,
+        "on": false,
+      },
+      "p": Object {
+        "key": "p",
+        "note": 51,
+        "on": false,
+      },
+      "s": Object {
+        "key": "s",
+        "note": 38,
+        "on": false,
+      },
+      "t": Object {
+        "key": "t",
+        "note": 42,
+        "on": false,
+      },
+      "u": Object {
+        "key": "u",
+        "note": 46,
+        "on": false,
+      },
+      "w": Object {
+        "key": "w",
+        "note": 37,
+        "on": false,
+      },
+      "y": Object {
+        "key": "y",
+        "note": 44,
+        "on": false,
+      },
+    },
+  },
   "monosynth": Object {
     "detune": 0,
     "envelope": Object {
